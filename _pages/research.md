@@ -17,7 +17,7 @@ Boehmke, Frederick J., Thomas Dainty, Samantha J. DeRagon, Hyein Ko, Taylor Toko
 
 Pizzi, Elise, **Tianhui Wu**, and Sara McLaughlin Mitchell. “Reducing Post-Disaster Conflict Risk through Migrant Remittances.” (Corresponding)
 
-## Working papers
+## Working Papers
 
 **Tianhui Wu** and Caroline Tolbert. "Actual Versus Perceived Competition: Partisan Divergence in Electoral Fairness Perceptions Across the 2020 and 2024 U.S. Presidential Elections." (*Ready for Submission*)
 
