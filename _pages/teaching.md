@@ -22,4 +22,4 @@ Stata Workshop (PhD Student Level), Fall 2025<br>
 Method Workshop (Large Language Models) (Department Level), Fall 2024
 
 <strong>*Sun Yat-sen University*</strong><br>
-Corruption Perception and The Fight Against Corruption (Undergrad Level), Fall 2024
+Corruption Studies (Undergrad Level), Fall 2024
