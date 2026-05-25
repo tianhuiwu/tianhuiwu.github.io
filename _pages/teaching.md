@@ -5,6 +5,9 @@ permalink: /teaching/
 author_profile: no
 ---
 
+## Course Designer
+<strong>*University of Iowa*</strong><br>
+Introduction to Comparative Politics (Undergrad Level), Spring 2026<br>
 
 ## Teaching Assistant
 <strong>*University of Iowa*</strong><br>
