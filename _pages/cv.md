@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[Download the CV](files/Wu_CV 20260322.pdf) (last updated in March 2026).
+[Download the CV](https://tianhuiwu.github.io/files/Wu_CV20260322.pdf) (last updated in March 2026).
