@@ -19,7 +19,7 @@ Local Politics (Undergrad Level), Fall 2022
 ## Guest Lectures
 <strong>*University of Iowa*</strong><br>
 Stata Workshop (PhD Student Level), Fall 2025<br>
-Method Workshop (Large Language Models) (Department Level), Fall 2024
+Method Workshop: Large Language Models (Department Level), Fall 2024
 
 <strong>*Sun Yat-sen University*</strong><br>
 Corruption Studies (Undergrad Level), Fall 2024
