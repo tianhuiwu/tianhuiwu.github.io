@@ -17,9 +17,11 @@ Boehmke, Frederick J., Thomas Dainty, Samantha J. DeRagon, Hyein Ko, Taylor Toko
 
 Pizzi, Elise, **Tianhui Wu**, and Sara McLaughlin Mitchell. “Reducing Post-Disaster Conflict Risk through Migrant Remittances.” (Corresponding)
 
+**Tianhui Wu**. "State Electoral Competition, Winners/Losers and Perceived Electoral Integrity."
+
 ## Working Papers
 
-**Tianhui Wu** and Caroline Tolbert. "Actual Versus Perceived Competition: Partisan Divergence in Electoral Fairness Perceptions Across the 2020 and 2024 U.S. Presidential Elections." (*Ready for Submission*)
+**Tianhui Wu**. "Do Elections Reduce or Reinforce Perceived Corruption? Comparative Evidence from Democracies." 
 
 **Tianhui Wu**, Pizzi Elise, and Tracy Osborn. "Framing Natural Hazards and Disasters in Political Party Manifestos."
 
