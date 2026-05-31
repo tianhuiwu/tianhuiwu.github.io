@@ -9,4 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-[Download the CV](https://tianhuiwu.github.io/files/Wu_CV.pdf) (last updated in March 2026).
+[Download the CV](/files/Wu_CV.pdf) (last updated in March 2026).
+
+<iframe
+    src="/files/Wu_CV.pdf"
+    width="100%"
+    height="1000px"
+    style="border:none;">
+</iframe>
