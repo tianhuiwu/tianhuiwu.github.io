@@ -17,12 +17,12 @@ Boehmke, Frederick J., Thomas Dainty, Samantha J. DeRagon, Hyein Ko, Taylor Toko
 
 Pizzi, Elise, **Tianhui Wu**, and Sara McLaughlin Mitchell. “Reducing Post-Disaster Conflict Risk through Migrant Remittances.” (Corresponding)
 
-**Tianhui Wu**. "State Electoral Competition, Winners/Losers and Perceived Electoral Integrity."
+**Tianhui Wu**. "How the Public Perceives Hidden Corruption: Opinion Leadership and Elite Cues."
 
 ## Working Papers
 
-**Tianhui Wu**. "Do Elections Reduce or Reinforce Perceived Corruption? Comparative Evidence from Democracies." 
-
 **Tianhui Wu**, Pizzi Elise, and Tracy Osborn. "Framing Natural Hazards and Disasters in Political Party Manifestos."
 
-**Tianhui Wu**. "From Public and Elite Opinion to Petty and Grand Corruption."
+**Tianhui Wu**. "Measuring Anti-Corruption Propaganda in China’s Official Media: A Text-Based Analysis of News Broadcasts."
+
+**Tianhui Wu**. "When Corruption Comes Home: Own-Province Investigation Reporting and Public Perceptions in China." 
