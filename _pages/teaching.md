@@ -7,7 +7,7 @@ author_profile: no
 
 ## Teaching Assistant
 <strong>*University of Iowa*</strong><br>
-**Introduction to Comparative Politics** (Undergrad Level), Fall 2022; Spring 2026<br>
+**Introduction to Comparative Politics** (Undergrad Level), Fall 2022; 2026<br>
 **Introduction to Political Analysis** (Undergrad Level), Spring 2023; Spring 2024<br>
 **Big Ideas: Introduction to Information, Society, Culture** (Undergrad Level), Fall 2023<br>
 **Local Politics** (Undergrad Level), Fall 2022
