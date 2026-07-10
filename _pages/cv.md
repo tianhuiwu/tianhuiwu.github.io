@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download the CV](/files/Wu_CV.pdf) (last updated in March 2026).
+[Download the CV](/files/Wu_CV.pdf) (last updated in July 2026).
 
 <iframe
     src="/files/Wu_CV.pdf"
