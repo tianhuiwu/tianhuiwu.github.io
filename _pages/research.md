@@ -15,16 +15,18 @@ Xia, Ying, Tianqing Chen, and **Tianhui Wu**. 2023. "[Public Petition and Govern
 
 ## Manuscripts under Review
 
-**Tianhui Wu**, Pizzi Elise, and Tracy Osborn. “Ideology or Interest? Two Pathways to Disaster Attention in Political Party Manifestos.”  
+**Wu, Tianhui**. "How the Public Perceives Hidden Corruption: Opinion Leadership and Elite Cues."
 
-**Tianhui Wu**. "How the Public Perceives Hidden Corruption: Opinion Leadership and Elite Cues."
+**Wu, Tianhui**, Pizzi Elise, and Tracy Osborn. “Focus on Disaster: Why Attention to Hazards Appears in Party Manifestos.”  
 
 Pizzi, Elise, **Tianhui Wu**, and Sara McLaughlin Mitchell. “Reducing Post-Disaster Conflict Risk through Migrant Remittances.” (Corresponding Author)
 
+Hu, Yue, **Tianhui Wu**, and Wenfang Tang. “Reducing Post-Disaster Conflict Risk through Migrant Remittances.” (Corresponding Author, in Chinese)
+
 ## Working Papers
 
-**Tianhui Wu**. "State Electoral Competition, Winners/Losers and Perceived Electoral Integrity."
+**Wu, Tianhui**. "State Electoral Competition, Winners/Losers and Perceived Electoral Integrity."
 
-**Tianhui Wu**. "Measuring Anti-Corruption Propaganda in China’s Official Media: A Text-Based Analysis of News Broadcasts."
+**Wu, Tianhui**. "Measuring Anti-Corruption Propaganda in China’s Official Media: A Text-Based Analysis of News Broadcasts."
 
-**Tianhui Wu**. "When Corruption Comes Home: Own-Province Investigation Reporting and Public Perceptions in China." 
+**Wu, Tianhui**. "When Corruption Comes Home: Own-Province Investigation Reporting and Public Perceptions in China." 
