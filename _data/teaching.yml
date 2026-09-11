@@ -1,0 +1,72 @@
+# =============================================================================
+# Teaching page data  (rendered by _includes/teaching-list.html)
+# -----------------------------------------------------------------------------
+# Fields per course:
+#   title:        Course or workshop title
+#   format:       Optional small badge after the title, e.g. Online
+#   context:      Optional line under the title (seminar, institution, co-teacher)
+#   terms:        Term(s), shown on the right, e.g. "Fall 2022, Fall 2026"
+#   description:  What you did in the course; shown in full, not collapsible
+#   links:        Optional buttons, same format as _data/research.yml, e.g.
+#                   links:
+#                     - type: syllabus
+#                       url: /files/intro_comparative_syllabus.pdf
+#                 Supported types: syllabus | evaluation | materials
+# =============================================================================
+
+sections:
+
+  - title: Instructor, University of Iowa
+    id: instructor
+    courses:
+      - title: Introduction to Comparative Politics
+        format: Online
+        terms: Fall 2022, Fall 2026
+        description: >-
+          Designed the weekly structure, wrote all prompts and assessments, and graded
+          all written work. Co-developed two discussion boards in which students tracked
+          political developments in an assigned country or topic.
+
+      - title: Local Politics
+        format: Online
+        terms: Fall 2022
+        description: >-
+          Sole instructor for an asynchronous course on local government structure,
+          elections, intergovernmental relations, and urban service provision. Supervised
+          civic-engagement assignments and carried out all grading and feedback.
+
+  - title: Teaching Assistant, University of Iowa
+    id: teaching-assistant
+    courses:
+      - title: Introduction to Political Analysis
+        terms: Spring 2023, Spring 2024
+        description: >-
+          Led four discussion sections of approximately 20 students each, covering game
+          theory, sampling and margin of error, and network analysis. Graded weekly
+          problem sets and held review sessions before exams.
+
+      - title: "Big Ideas: Introduction to Information, Society, and Culture"
+        terms: Fall 2023
+        description: >-
+          Guided in-class work on data quality, sampling bias, network, geospatial, and
+          time-series visualizations, providing on-the-spot instruction and guidance to
+          student teams. Graded all homework and examinations.
+
+  - title: Graduate Instruction and Methods Workshops
+    id: workshops
+    courses:
+      - title: Stata Workshop
+        context: Graduate Advanced Methods Seminar, University of Iowa
+        terms: Sept 2025
+        description: >-
+          Designed and taught a full empirical workflow, from data import and cleaning
+          through model specification and interpretation, for graduate students with
+          limited quantitative background.
+
+      - title: "Methods Workshop: Using Large Language Models with Python"
+        context: University of Iowa
+        terms: Sept 2024
+        description: >-
+          Co-taught with Eric Ngo. Led hands-on applications in Python, using Hugging Face
+          pipelines and the OpenAI API to classify corruption-related sentences drawn from
+          party platform data.
