@@ -1,0 +1,106 @@
+{%- comment -%}
+  Renders the Research page from _data/research.yml.
+  Edit the data file, not this template, to add or update papers.
+{%- endcomment -%}
+{%- assign research = site.data.research -%}
+{%- assign has_gold = false -%}
+{%- assign has_green = false -%}
+{%- assign has_corr = false -%}
+{%- for s in research.sections -%}{%- for g in s.groups -%}{%- for p in g.papers -%}
+  {%- for l in p.links -%}
+    {%- if l.oa == "gold" -%}{%- assign has_gold = true -%}{%- endif -%}
+    {%- if l.oa == "green" -%}{%- assign has_green = true -%}{%- endif -%}
+  {%- endfor -%}
+  {%- for a in p.authors -%}{%- if a.corresponding -%}{%- assign has_corr = true -%}{%- endif -%}{%- endfor -%}
+{%- endfor -%}{%- endfor -%}{%- endfor -%}
+<div class="research">
+{%- if has_gold or has_green or has_corr -%}
+<div class="research-legend">
+{%- if has_gold -%}<span><i class="ai ai-open-access oa--gold" aria-hidden="true"></i> Open access (publisher)</span>{%- endif -%}
+{%- if has_green -%}<span><i class="ai ai-open-access oa--green" aria-hidden="true"></i> Open access (self-archived)</span>{%- endif -%}
+{%- if has_corr -%}<span><span class="pub__corr" aria-hidden="true">✱</span> Corresponding author</span>{%- endif -%}
+</div>
+{%- endif -%}
+<nav class="research-toc" aria-label="Research sections">
+{%- for s in research.sections -%}
+<a href="#{{ s.id }}">{{ s.title }}</a>
+{%- endfor -%}
+</nav>
+{%- assign n = 0 -%}
+{%- for s in research.sections -%}
+<section class="research-section" id="{{ s.id }}">
+<h2>{{ s.title }}</h2>
+{%- for g in s.groups -%}
+{%- if g.title -%}<h3 class="research-group">{{ g.title }}</h3>{%- endif -%}
+{%- for p in g.papers -%}
+{%- assign n = n | plus: 1 -%}
+<article class="pub">
+<p class="pub__title">
+{%- if p.status -%}<span class="pub__badge">{{ p.status }}</span>{%- endif -%}
+{{ p.title }}
+{%- if p.title_en %} <span class="pub__title-en">[{{ p.title_en }}]</span>{% endif -%}
+{%- if p.language -%}<span class="pub__badge pub__badge--muted">{{ p.language }}</span>{%- endif -%}
+</p>
+<p class="pub__meta">
+{%- assign n_authors = p.authors | size -%}
+{%- for a in p.authors -%}
+<span class="pub__author{% if a.me %} pub__author--me{% endif %}">
+{%- if n_authors > 1 -%}<sup>{{ forloop.index }}</sup>{%- endif -%}
+{%- if a.corresponding -%}<span class="pub__corr" title="Corresponding author">✱</span>{%- endif -%}
+{{ a.name }}{% if a.name_en %} [{{ a.name_en }}]{% endif %}</span>
+{%- unless forloop.last -%}
+{%- if n_authors == 2 %} and {% elsif forloop.rindex == 2 %}, and {% else %}, {% endif -%}
+{%- endunless -%}
+{%- endfor -%}.
+{%- if p.year %} {{ p.year }}.{% endif -%}
+{%- if p.venue_en -%}{%- capture venue_text -%}{{ p.venue }} [<em>{{ p.venue_en }}</em>]{%- endcapture -%}{%- else -%}{%- capture venue_text -%}<em>{{ p.venue }}</em>{%- endcapture -%}{%- endif -%}
+{%- if p.venue %} {% if p.venue_url %}<a href="{{ p.venue_url }}" target="_blank" rel="noopener">{{ venue_text }}</a>{% else %}{{ venue_text }}{% endif %}
+{%- if p.volume %} {{ p.volume }}{% if p.issue %}({{ p.issue }}){% endif %}{% endif -%}
+{%- if p.pages %}{% if p.volume %}:{% endif %} {{ p.pages }}{% endif -%}.
+{%- endif -%}
+{%- if p.note %} <span class="pub__note">{{ p.note }}</span>{% endif -%}
+</p>
+{%- assign n_links = p.links | size -%}
+{%- assign has_abs = false -%}{%- if p.abstract and p.abstract != "" -%}{%- assign has_abs = true -%}{%- endif -%}
+{%- if has_abs or n_links > 0 -%}
+<div class="pub__actions">
+{%- if has_abs -%}
+<button type="button" class="pub__btn pub__toggle" aria-expanded="false" aria-controls="abs-{{ n }}"><span class="pub__caret" aria-hidden="true">▶</span>Abstract</button>
+{%- endif -%}
+{%- for l in p.links -%}
+{%- if l.url contains "://" -%}{%- assign href = l.url -%}{%- else -%}{%- assign href = l.url | relative_url -%}{%- endif -%}
+{%- case l.type -%}
+{%- when "published" -%}{%- assign icon = "fas fa-file-lines" -%}{%- assign label = "Published Version" -%}
+{%- when "manuscript" -%}{%- assign icon = "fas fa-file-pdf" -%}{%- assign label = "Accepted Manuscript" -%}
+{%- when "appendix" -%}{%- assign icon = "fas fa-paperclip" -%}{%- assign label = "Appendix" -%}
+{%- when "code" -%}{%- assign icon = "fab fa-github" -%}{%- assign label = "Code" -%}
+{%- when "data" -%}{%- assign icon = "fas fa-database" -%}{%- assign label = "Data" -%}
+{%- when "slides" -%}{%- assign icon = "fas fa-person-chalkboard" -%}{%- assign label = "Slides" -%}
+{%- else -%}{%- assign icon = "fas fa-link" -%}{%- assign label = "Link" -%}
+{%- endcase -%}
+{%- if l.label -%}{%- assign label = l.label -%}{%- endif -%}
+<a class="pub__btn" href="{{ href | escape }}" target="_blank" rel="noopener"><i class="{{ icon }}" aria-hidden="true"></i>
+{%- if l.oa == "gold" -%}<i class="ai ai-open-access oa--gold" title="Open access (publisher)" aria-hidden="true"></i>{%- elsif l.oa == "green" -%}<i class="ai ai-open-access oa--green" title="Open access (self-archived)" aria-hidden="true"></i>{%- endif -%}
+{{ label }}</a>
+{%- endfor -%}
+</div>
+{%- if has_abs -%}
+<div class="pub__abstract" id="abs-{{ n }}" hidden>{{ p.abstract | markdownify }}</div>
+{%- endif -%}
+{%- endif -%}
+</article>
+{%- endfor -%}
+{%- endfor -%}
+</section>
+{%- endfor -%}
+</div>
+<script>
+document.querySelectorAll(".pub__toggle").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var panel = document.getElementById(btn.getAttribute("aria-controls"));
+    var open = btn.getAttribute("aria-expanded") === "true";
+    btn.setAttribute("aria-expanded", open ? "false" : "true");
+    panel.hidden = open;
+  });
+});
+</script>
