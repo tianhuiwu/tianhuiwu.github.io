@@ -55,8 +55,8 @@ sections:
   - title: Graduate Instruction and Methods Workshops
     id: workshops
     courses:
-      - title: Stata Workshop
-        context: Graduate Advanced Methods Seminar, University of Iowa
+      - title: "Stata Workshop: Graduate Advanced Methods Seminar"
+        context: Department of Political Science, University of Iowa
         terms: Sept 2025
         description: >-
           Designed and taught a full empirical workflow, from data import and cleaning
@@ -64,7 +64,7 @@ sections:
           limited quantitative background.
 
       - title: "Methods Workshop: Using Large Language Models with Python"
-        context: University of Iowa
+        context: Department of Political Science, University of Iowa
         terms: Sept 2024
         description: >-
           Co-taught with Eric Ngo. Led hands-on applications in Python, using Hugging Face
