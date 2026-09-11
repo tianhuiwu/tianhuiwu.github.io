@@ -1,32 +1,7 @@
----
 title: "Research"
 layout: archive
 permalink: /research/
 author_profile: no
 ---
 
-## Peer-reviewed Publications
-
-Boehmke, Frederick J., Thomas Dainty, Samantha J. DeRagon, Hyein Ko, Taylor Tokos, **Tianhui Wu**, and Weidong Zhang. “The Use of Visualization in Political Science: A Century of Growth and the Current State.” Forthcoming at *PS: Political Science and Politics* (Corresponding Author)
-
-Xia, Ying, and **Tianhui Wu**. 2024. "[Building Consensus: Implementing “One-Shoulder” Policy in Village S with Divided Elite Structure.](https://oversea.cnki.net/kcms2/article/abstract?v=Klkw5nWhgJGSIWbgg82OeVOIrzyhHRPl7ZpLKCpca1pvXyUReHgIj5x5HKJpTY1E8k6omNwBNVMJJf81tBbbmmoEMmzX043rQO5md6-uDsFS9RSzPvIlXI9YZHJo0UAvemy5yWWnfa4XY3auukJhPq6hBFMcb5RlECP4i_SYNQH8_U8PPIarFxY8JDu_nsdb&uniplatform=OVERSEA&language=EN)" *Journal of Sun Yat-sen University (Social Science Edition)*, 64(4): 155-164. (In Chinese)
-
-Xia, Ying, Tianqing Chen, and **Tianhui Wu**. 2023. "[Public Petition and Government Responsiveness —— Evidence from City A.](https://oversea.cnki.net/kcms2/article/abstract?v=Klkw5nWhgJH1LPb13e9TrJzRM8CXyONj-fP2PGv9nJ-l5jwvAij07tXSW8q_SmH-prAexTTdmQ5UAWyRmiv0aSj8Xgr8dFl3XOPMzuWSoGk9YS8hG7IjMquom9Qa2vISGadzouKyll0hwk_h_mQq_j09Rn3cr74_NDlYgYDOPy7tV8fhWaWgBXruqgEKs949PhCQRN1Hldk&uniplatform=OVERSEA&language=EN&captchaId=62f48432-f760-412e-ba53-7456935c9af4)" *Fudan Public Administration Review*, (27)2: 101-116. (In Chinese)
-
-## Manuscripts under Review
-
-**Wu, Tianhui**. "How the Public Perceives Hidden Corruption: Opinion Leadership and Elite Cues."
-
-**Wu, Tianhui**, Pizzi Elise, and Tracy Osborn. “Focus on Disaster: Why Attention to Hazards Appears in Party Manifestos.”  
-
-Pizzi, Elise, **Tianhui Wu**, and Sara McLaughlin Mitchell. “Reducing Post-Disaster Conflict Risk through Migrant Remittances.” (Corresponding Author)
-
-Hu, Yue, **Tianhui Wu**, and Wenfang Tang. “Reducing Post-Disaster Conflict Risk through Migrant Remittances.” (Corresponding Author, in Chinese)
-
-## Working Papers
-
-**Wu, Tianhui**. "State Electoral Competition, Winners/Losers and Perceived Electoral Integrity."
-
-**Wu, Tianhui**. "Measuring Anti-Corruption Propaganda in China’s Official Media: A Text-Based Analysis of News Broadcasts."
-
-**Wu, Tianhui**. "When Corruption Comes Home: Own-Province Investigation Reporting and Public Perceptions in China." 
+{% include research-list.html %}
