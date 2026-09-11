@@ -1,0 +1,39 @@
+{%- comment -%}
+  Renders the Teaching page from _data/teaching.yml.
+  Edit the data file, not this template, to add or update courses.
+{%- endcomment -%}
+<div class="teaching">
+{%- for s in site.data.teaching.sections -%}
+<section class="teaching-section" id="{{ s.id }}">
+<h2>{{ s.title }}</h2>
+{%- for c in s.courses -%}
+<article class="course">
+<div class="course__head">
+<p class="course__title">{{ c.title }}
+{%- if c.format -%}<span class="pub__badge pub__badge--muted">{{ c.format }}</span>{%- endif -%}
+</p>
+{%- if c.terms -%}<p class="course__term">{{ c.terms }}</p>{%- endif -%}
+</div>
+{%- if c.context -%}<p class="course__context">{{ c.context }}</p>{%- endif -%}
+{%- if c.description -%}<div class="course__desc">{{ c.description | markdownify }}</div>{%- endif -%}
+{%- assign n_links = c.links | size -%}
+{%- if n_links > 0 -%}
+<div class="pub__actions">
+{%- for l in c.links -%}
+{%- if l.url contains "://" -%}{%- assign href = l.url -%}{%- else -%}{%- assign href = l.url | relative_url -%}{%- endif -%}
+{%- case l.type -%}
+{%- when "syllabus" -%}{%- assign icon = "fas fa-file-pdf" -%}{%- assign label = "Syllabus" -%}
+{%- when "evaluation" -%}{%- assign icon = "fas fa-chart-simple" -%}{%- assign label = "Evaluations" -%}
+{%- when "materials" -%}{%- assign icon = "fas fa-folder-open" -%}{%- assign label = "Materials" -%}
+{%- else -%}{%- assign icon = "fas fa-link" -%}{%- assign label = "Link" -%}
+{%- endcase -%}
+{%- if l.label -%}{%- assign label = l.label -%}{%- endif -%}
+<a class="pub__btn" href="{{ href | escape }}" target="_blank" rel="noopener"><i class="{{ icon }}" aria-hidden="true"></i>{{ label }}</a>
+{%- endfor -%}
+</div>
+{%- endif -%}
+</article>
+{%- endfor -%}
+</section>
+{%- endfor -%}
+</div>
