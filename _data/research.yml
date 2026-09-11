@@ -151,7 +151,7 @@ sections:
             links:
               - type: published
                 label: CNKI
-                url: https://oversea.cnki.net/kcms2/article/abstract?v=Klkw5nWhgJGSIWbgg82OeVOIrzyhHRPl7ZpLKCpca1pvXyUReHgIj5x5HKJpTY1E8k6omNwBNVMJJf81tBbbmmoEMmzX043rQO5md6-uDsFS9RSzPvIlXI9YZHJo0UAvemy5yWWnfa4XY3auukJhPq6hBFMcb5RlECP4i_SYNQH8_U8PPIarFxY8JDu_nsdb&uniplatform=OVERSEA&language=EN
+                url: /files/xia_wu_2024_one_shoulder.pdf
 
           - title: 行政信访中的民众诉求与政府回应——基于 A 市来访数据的经验研究
             title_en: "Public Petition and Government Responsiveness: Evidence from City A"
@@ -186,7 +186,7 @@ sections:
             links:
               - type: published
                 label: CNKI
-                url: https://oversea.cnki.net/kcms2/article/abstract?v=Klkw5nWhgJH1LPb13e9TrJzRM8CXyONj-fP2PGv9nJ-l5jwvAij07tXSW8q_SmH-prAexTTdmQ5UAWyRmiv0aSj8Xgr8dFl3XOPMzuWSoGk9YS8hG7IjMquom9Qa2vISGadzouKyll0hwk_h_mQq_j09Rn3cr74_NDlYgYDOPy7tV8fhWaWgBXruqgEKs949PhCQRN1Hldk&uniplatform=OVERSEA&language=EN
+                url: /files/xia_chen_wu_2023_petition.pdf
 
   - title: Manuscripts Under Review
     id: under-review
