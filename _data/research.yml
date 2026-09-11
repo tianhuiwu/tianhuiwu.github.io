@@ -1,0 +1,327 @@
+# =============================================================================
+# Research page data  (rendered by _includes/research-list.html)
+# -----------------------------------------------------------------------------
+# To add or update a paper, edit this file only. Available fields per paper:
+#
+#   title:        Paper title (no quotation marks needed). For a Chinese-language
+#                 paper, put the Chinese title here.
+#   title_en:     Optional English title, shown after the title in [brackets]
+#   status:       Optional small badge before the title, e.g. Forthcoming
+#   language:     Optional badge, e.g. In Chinese
+#   authors:      List in publication order. Each author:
+#                   name:          Full name, first name first (Chinese name
+#                                  for Chinese-language papers)
+#                   name_en:       Optional English name, shown in [brackets]
+#                   me:            true  -> shown in bold
+#                   corresponding: true  -> marked with ✱
+#   year:         Publication year (leave out for manuscripts)
+#   venue:        Journal or book title (shown in italics)
+#   venue_en:     Optional English journal title, shown in [brackets]; when
+#                 used, the Chinese venue is shown upright and the English
+#                 title in italics
+#   venue_url:    Optional link on the journal name
+#   volume, issue, pages
+#   abstract:     Optional. Paste the final abstract; the Abstract button
+#                 appears only when this field is filled in. Use the
+#                 ">-" block style shown in the commented example below.
+#   links:        Optional list of buttons. Each link:
+#                   type:  published | manuscript | appendix | code | data | slides
+#                   url:   Full URL, or a site path such as /files/wu_hidden.pdf
+#                   label: Optional custom button text
+#                   oa:    Optional open access mark: gold (publisher) | green (self-archived)
+#
+# Example of a fully filled entry (remove the leading # to use):
+#
+#  - title: Example Title
+#    authors:
+#      - name: Tianhui Wu
+#        me: true
+#        corresponding: true
+#    year: 2027
+#    venue: Journal Name
+#    venue_url: https://example.org
+#    volume: 12
+#    issue: 3
+#    pages: 1-20
+#    abstract: >-
+#      First sentence of the abstract. Second sentence of the abstract.
+#    links:
+#      - type: published
+#        url: https://doi.org/10.xxxx/xxxxx
+#        oa: gold
+#      - type: manuscript
+#        url: /files/example_accepted_manuscript.pdf
+#        oa: green
+#      - type: code
+#        url: https://github.com/tianhuiwu/example
+# =============================================================================
+
+sections:
+
+  # ---------------------------------------------------------------------------
+  # Optional dissertation section. Remove the leading # on each line and fill
+  # in the title and committee to display it at the top of the page.
+  # ---------------------------------------------------------------------------
+  # - title: Dissertation Project
+  #   id: dissertation
+  #   groups:
+  #     - papers:
+  #         - title: Dissertation Title
+  #           authors:
+  #             - name: Tianhui Wu
+  #               me: true
+  #           note: "Committee: Frederick Solt (Chair), ..."
+  #           abstract: >-
+  #             Dissertation summary.
+
+  - title: Publications
+    id: publications
+    groups:
+
+      - title: Peer-Reviewed Journal Articles
+        papers:
+          - title: "The Use of Visualization in Political Science: A Century of Growth and the Current State"
+            status: Forthcoming
+            authors:
+              - name: Frederick J. Boehmke
+              - name: Thomas Dainty
+              - name: Samantha J. DeRagon
+              - name: Hyein Ko
+              - name: Taylor Tokos
+              - name: Tianhui Wu
+                me: true
+                corresponding: true
+              - name: Weidong Zhang
+            venue: "PS: Political Science & Politics"
+            venue_url: https://www.cambridge.org/core/journals/ps-political-science-and-politics
+            abstract: >-
+              We provide an overview of visualization in political science. To trace how
+              visualization practices have evolved, we sampled the first 25 articles from
+              every fifth volume of the American Political Science Review (APSR), beginning
+              with Volume 1 in 1906. This historical sample captures over a century of trends
+              in the frequency, purpose, and form of visualizations. To examine a broader
+              cross-section of the field, we also analyze over 200 articles from recent issues
+              of eight leading political science journals, including both general and
+              subfield-specific ones. For each article, we coded every included visualization
+              using the same procedure as in the APSR sample, assigning each a primary purpose
+              and a specific form based on a typology of about 100 distinct types. The
+              resulting dataset—comparing roughly 1,500 visualizations—allows us to assess
+              both long-term changes and the current state of visualization in political
+              science, and to compare usage patterns across journals and subfields.
+            links: []
+            # When the article is online, add for example:
+            # links:
+            #   - type: published
+            #     url: https://doi.org/10.1017/...
+            #     oa: gold
+
+      - title: Chinese-Language Journal Articles
+        papers:
+          - title: 建构共识：在精英结构分化的村庄落实“一肩挑”——基于“S村”的经验研究
+            title_en: "Building Consensus: Implementing the “One-Shoulder” Policy in a Village with a Divided Elite Structure"
+            language: In Chinese
+            authors:
+              - name: 夏瑛
+                name_en: Ying Xia
+              - name: 吴天慧
+                name_en: Tianhui Wu
+                me: true
+            year: 2024
+            venue: 中山大学学报（社会科学版）
+            venue_en: Journal of Sun Yat-sen University (Social Science Edition)
+            volume: 64
+            issue: 4
+            pages: 155–164
+            abstract: >-
+              Concurrent appointment of the village head and village party leader, known as
+              the “One-Shoulder” policy, is essential for strengthening party leadership at
+              the grassroots level. However, the implementation of this policy is problematic
+              in villages with divided elite structures. When County A intended to implement
+              the “One-Shoulder” policy in the 16 villages under its jurisdiction, Village S
+              became the only village unable to implement it. Neither the former village chief
+              nor the village party secretary was willing to give up their positions to the
+              other. In order to break this deadlock, the county-level party organization
+              started from two aspects to build consensus and bridge the differences between
+              village elites. On the one hand, the grassroots party committee utilized the
+              cadre work method to build candidate consensus among village elites. On the
+              other hand, the mass line work method was used to build electoral consensus
+              among villagers. As can be seen from this case, grassroots party organizations
+              have played a crucial role in the effective implementation of central policies
+              in rural areas by integrating differences and forming consensus.
+            links:
+              - type: published
+                label: CNKI
+                url: https://oversea.cnki.net/kcms2/article/abstract?v=Klkw5nWhgJGSIWbgg82OeVOIrzyhHRPl7ZpLKCpca1pvXyUReHgIj5x5HKJpTY1E8k6omNwBNVMJJf81tBbbmmoEMmzX043rQO5md6-uDsFS9RSzPvIlXI9YZHJo0UAvemy5yWWnfa4XY3auukJhPq6hBFMcb5RlECP4i_SYNQH8_U8PPIarFxY8JDu_nsdb&uniplatform=OVERSEA&language=EN
+
+          - title: 行政信访中的民众诉求与政府回应——基于 A 市来访数据的经验研究
+            title_en: "Public Petition and Government Responsiveness: Evidence from City A"
+            language: In Chinese
+            authors:
+              - name: 夏瑛
+                name_en: Ying Xia
+              - name: 陈天晴
+                name_en: Tianqing Chen
+              - name: 吴天慧
+                name_en: Tianhui Wu
+                me: true
+            year: 2023
+            venue: 复旦公共行政评论
+            venue_en: Fudan Public Administration Review
+            volume: 27
+            issue: 2
+            pages: 101–116
+            abstract: >-
+              What kind of petitions are more likely to get active responsiveness from the
+              local government? Using empirical data on petitions in city A, this study
+              attempts to answer this question. It is found that the intensity of petitions,
+              operationalized as petition size and petition frequency, is positively
+              correlated with government responsiveness. Other features of petitions,
+              including the socioeconomic attributes of the petitioners and the petition
+              demands, have no statistical relationship with government responsiveness. We
+              further operationalize government responsiveness into two sequential types, the
+              immediate response and the final response. Controlling for the features of
+              petitions and petitioners, it is found that immediate response significantly
+              affects the final response. These findings update empirical evidence to
+              scholarly understanding of petition politics in contemporary China.
+            links:
+              - type: published
+                label: CNKI
+                url: https://oversea.cnki.net/kcms2/article/abstract?v=Klkw5nWhgJH1LPb13e9TrJzRM8CXyONj-fP2PGv9nJ-l5jwvAij07tXSW8q_SmH-prAexTTdmQ5UAWyRmiv0aSj8Xgr8dFl3XOPMzuWSoGk9YS8hG7IjMquom9Qa2vISGadzouKyll0hwk_h_mQq_j09Rn3cr74_NDlYgYDOPy7tV8fhWaWgBXruqgEKs949PhCQRN1Hldk&uniplatform=OVERSEA&language=EN
+
+  - title: Manuscripts Under Review
+    id: under-review
+    groups:
+      - papers:
+          - title: "How the Public Perceives Hidden Corruption: Opinion Leadership and Elite Cues"
+            authors:
+              - name: Tianhui Wu
+                me: true
+            abstract: >-
+              Citizens frequently judge the extent of corruption among political elites
+              despite having little opportunity to observe it directly. Existing research
+              shows that public perceptions are closely tied to everyday experiences of petty
+              corruption but offers limited explanation for how citizens perceive grand
+              corruption occurring at the highest levels of government. This article argues
+              that public perceptions of hidden grand corruption are shaped through opinion
+              leadership: elites provide informational cues that allow citizens to form
+              judgments about grand corruption they cannot directly observe. Using
+              Eurobarometer surveys covering 28 European countries from 2005 to 2022, combined
+              with expert-based corruption measures, this article distinguishes between grand
+              and petty corruption on both the perception and observed dimensions. The
+              analyses show that citizens’ perceptions and experiences correspond closely to
+              petty corruption but not to grand corruption, whereas elites’ assessments track
+              both forms. Error correction models further indicate that public perceptions of
+              grand corruption adjust toward elite assessments in both the short run and the
+              long run, even after accounting for observed corruption. These findings suggest
+              that agreement between elite and public corruption perceptions reflects
+              informational dependence rather than shared observation, extending theories of
+              opinion leadership to a domain where citizens cannot directly observe the object
+              of political judgment.
+            links: []
+
+          - title: "Focus on Disaster: Why Attention to Hazards Appears in Party Manifestos"
+            authors:
+              - name: Tianhui Wu
+                me: true
+              - name: Elise Pizzi
+              - name: Tracy Osborn
+            abstract: >-
+              Natural disasters impose growing social and economic costs, yet they receive
+              little attention in election campaigns. Why do some political parties
+              prioritize disaster preparedness and response while others do not? Using 843
+              election manifestos from 31 OECD democracies between 2010 and 2025, this study
+              shows that only two party families consistently devote attention to disasters:
+              green and agrarian parties. They do so for very different reasons. Green parties
+              discuss disasters as environmental problems and attention is unrelated to recent
+              disaster experience. Agrarian parties instead emphasize disasters when their
+              constituencies have recently been affected, focusing on compensation and relief
+              for rural communities. These findings show that similar issue attention can
+              arise from different motivations: ideological commitments in one case, and
+              constituency interests in the other. This work shows that disaster preparedness
+              can enter democratic politics through multiple pathways, though it has failed to
+              enter most party manifestos despite high profile disasters.
+            links: []
+
+          - title: Reducing Post-Disaster Conflict Risk through Migrant Remittances
+            authors:
+              - name: Elise Pizzi
+              - name: Tianhui Wu
+                me: true
+                corresponding: true
+              - name: Sara McLaughlin Mitchell
+            abstract: >-
+              How do migration and remittance patterns influence the relationship between
+              disasters and intrastate conflicts? Existing literature focuses on how disaster
+              migration increases social tension and can lead to violent conflict, but it
+              rarely examines the role of labor migration and diaspora networks in building
+              disaster resilience. We argue that countries whose citizens can rely on migrant
+              remittances are less likely to experience conflict because disaster victims and
+              affected populations can rely on remittance support from parts of their social
+              networks that did not experience the disaster. We expect that higher inflows of
+              remittances mitigate the adverse effects of hazards (e.g., displacement), reduce
+              post-disaster grievances, increase opportunity costs for rebellion, and lower
+              the likelihood of armed conflicts. We test our theory by examining global
+              patterns using a cross-sectional time series dataset of disasters and
+              international remittances (1970-2021) and find that armed conflict risks after
+              disasters are lower in countries that receive more remittances. We find similar
+              results leveraging within-country variation with analyses of domestic and
+              international remittances and political violence across districts in Peru
+              (2004-2022). Our cross-national and Peruvian empirical results show the
+              important role of migrant networks in resilience in the face of disasters.
+            links: []
+
+          - title: 基层非正规经济行为的政治影响和机制研究
+            title_en: The Political Impacts of Grassroots Corruption in China and Their Mechanisms
+            language: In Chinese
+            authors:
+              - name: 胡悦
+                name_en: Yue Hu
+              - name: 吴天慧
+                name_en: Tianhui Wu
+                me: true
+                corresponding: true
+              - name: 唐文方
+                name_en: Wenfang Tang
+            abstract: >-
+              Informal economic behavior at the grassroots level is both concealed and
+              widespread, yet its social and political consequences, and the mechanisms
+              behind them, remain poorly understood. Drawing on a nationally representative
+              survey, this study measures citizens’ corruption experience by combining a list
+              experiment with direct questioning in order to correct for social desirability
+              bias. It examines how such experience shapes political attitudes. The results
+              indicate that the more corruption citizens experience, the lower their
+              satisfaction with government performance and their trust in government at all
+              levels and in public sector institutions. Although the behavior occurs locally,
+              the damage to system-wide trust is especially pronounced. This effect operates
+              mainly through a weakening of political efficacy. Moreover, the stronger
+              citizens’ perception of central government integrity, the more negative the
+              consequences of their corruption experience. These findings underscore the
+              practical significance of curbing petty corruption, and suggest that perceived
+              integrity at the centre amplifies, rather than offsets, the political damage
+              done locally.
+            links: []
+
+  - title: Working Papers
+    id: working-papers
+    groups:
+      - papers:
+          - title: "State Electoral Competition, Winners/Losers and Perceived Electoral Integrity"
+            authors:
+              - name: Tianhui Wu
+                me: true
+            abstract:
+            links: []
+
+          - title: "Measuring Anti-Corruption Propaganda in China’s Official Media: A Text-Based Analysis of News Broadcasts"
+            authors:
+              - name: Tianhui Wu
+                me: true
+            abstract:
+            links: []
+
+          - title: "When Corruption Comes Home: Own-Province Investigation Reporting and Public Perceptions in China"
+            authors:
+              - name: Tianhui Wu
+                me: true
+            abstract:
+            links: []
