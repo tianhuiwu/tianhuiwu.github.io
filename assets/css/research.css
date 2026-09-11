@@ -1,5 +1,6 @@
 /* ==========================================================================
    Research page  (used by _includes/research-list.html)
+   Teaching page styles are at the end of this file.
    Colours come from the theme variables, so light and dark modes both work.
    ========================================================================== */
 
@@ -209,4 +210,66 @@
 
 .pub__abstract[hidden] {
   display: none;
+}
+
+/* ==========================================================================
+   Teaching page  (used by _includes/teaching-list.html)
+   ========================================================================== */
+
+.teaching-section {
+  scroll-margin-top: 80px;
+}
+
+.teaching-section > h2 {
+  margin: 1.6em 0 0.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.teaching-section:first-child > h2 {
+  margin-top: 1.1em;
+}
+
+.course {
+  margin: 0 0 1.4em;
+}
+
+.course p {
+  margin: 0;
+}
+
+.course__head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.1em 1.5em;
+}
+
+.course__title {
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--global-text-color);
+}
+
+.course__term {
+  font-size: 0.9em;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
+}
+
+.course__context {
+  font-size: 0.9em;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.course__desc {
+  margin-top: 0.3em;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.course__desc p + p {
+  margin-top: 0.5em;
 }
