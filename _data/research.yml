@@ -220,7 +220,7 @@ sections:
             links:
               - type: manuscript
                 label: Self-archiving
-                url: /files/wu_how the public perceives hidden corruption.pdf            
+                url: /files/wu_public_perceives_hidden_corruption.pdf            
 
           - title: "Focus on Disaster: Why Attention to Hazards Appears in Party Manifestos"
             authors:
@@ -325,7 +325,7 @@ sections:
             links:
               - type: manuscript
                 label: Self-archiving
-                url: /files/wu_measuring anti-corruption messaging in China’s official media.pdf     
+                url: /files/wu_measuring_anti-corruption_messaging.pdf     
                 
           - title: "When Corruption Comes Home: Own-Province Investigation Reporting and Public Perceptions in China"
             authors:
