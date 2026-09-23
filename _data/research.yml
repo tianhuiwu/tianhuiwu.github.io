@@ -217,7 +217,10 @@ sections:
               informational dependence rather than shared observation, extending theories of
               opinion leadership to a domain where citizens cannot directly observe the object
               of political judgment.
-            links: [/files/wu_how the public perceives hidden corruption.pdf]
+            links:
+              - type: manuscript
+                label: Self-archiving
+                url: /files/wu_how the public perceives hidden corruption.pdf            
 
           - title: "Focus on Disaster: Why Attention to Hazards Appears in Party Manifestos"
             authors:
@@ -319,8 +322,11 @@ sections:
               - name: Tianhui Wu
                 me: true
             abstract:
-            links: [/files/wu_measuring anti-corruption messaging in China’s official media.pdf]
-
+            links:
+              - type: manuscript
+                label: Self-archiving
+                url: /files/wu_measuring anti-corruption messaging in China’s official media.pdf     
+                
           - title: "When Corruption Comes Home: Own-Province Investigation Reporting and Public Perceptions in China"
             authors:
               - name: Tianhui Wu
